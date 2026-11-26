@@ -5,6 +5,16 @@ Telegram-бот, который заменяет форму на сайте: ч�
 
 Делал под небольшой сервисный бизнес, где заявки терялись в переписке.
 
+<p>
+  <img src="docs/screen-menu.png" width="240" alt="Меню">
+  <img src="docs/screen-form.png" width="240" alt="Заполнение заявки">
+  <img src="docs/screen-done.png" width="240" alt="Заявка принята">
+</p>
+
+Скриншоты не нарисованы руками: `scripts/make_screens.py` прогоняет настоящие хендлеры
+с заглушками Telegram-объектов и отрисовывает то, что они вернули — тексты, клавиатуры
+и порядок шагов берутся из кода.
+
 ## Стек
 
 Python 3.11+ · aiogram 3 · aiosqlite · pydantic-settings · phonenumbers · pytest · ruff · Docker
